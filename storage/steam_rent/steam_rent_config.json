@@ -1,0 +1,155 @@
+{
+  "accounts": [
+    {
+      "id": "214f0625-4c19-448d-a1e9-97140c011b97",
+      "login": "mario_mario48",
+      "password": "qyGO4k3al1nVmRZ7sX",
+      "mafile": {
+        "shared_secret": "iKItZE3ntlxvkmpJMdpXjQ+n7yk=",
+        "identity_secret": "Y4wuGNir+kObYoCs589HcVKYzso=",
+        "device_id": "android:b816d193-3743-46fa-8ec7-5e254850b9c7",
+        "steamid": null
+      },
+      "state": "free",
+      "rent_until": null
+    }
+  ],
+  "bindings": [
+    {
+      "id": "8a41b757-328e-45a7-93b2-1f3b21552fd0",
+      "lot_name": "🤖 Аренда аккаунтов - Автоматическая выдача | TEST",
+      "account_name": "mario_mario48",
+      "duration": 5,
+      "duration_label": "5 сек"
+    }
+  ],
+  "rentals": {
+    "active": [],
+    "completed": [
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "KESWBKZ9",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756128055,
+        "duration": 400,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "Q8VJX4KP",
+        "buyer_username": "VLADIK6767",
+        "chat_id": 193570735,
+        "end_time": 1756128500,
+        "duration": 400,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "KDTEW8EW",
+        "buyer_username": "VLADIK6767",
+        "chat_id": 193570735,
+        "end_time": 1756129096,
+        "duration": 60,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "LWLUA3J2",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756129523,
+        "duration": 60,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "Q4VWCEPV",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756130612,
+        "duration": 5,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "VV3KTWJC",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756130982,
+        "duration": 5,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "CYL1HPF4",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756131336,
+        "duration": 5,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "V4YXQE59",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756131556,
+        "duration": 5,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      },
+      {
+        "account_id": "214f0625-4c19-448d-a1e9-97140c011b97",
+        "order_id": "LC4P53QT",
+        "buyer_username": "ykypnuk5566",
+        "chat_id": 193559291,
+        "end_time": 1756132112,
+        "duration": 5,
+        "started": true,
+        "price": 1.0,
+        "guard_issued": true,
+        "completed": true
+      }
+    ]
+  },
+  "stats": {
+    "successful": 0,
+    "revenue": 9.0
+  },
+  "settings": {
+    "active": true,
+    "admin_id": 7409576871
+  },
+  "templates": {
+    "rental_start": "🎮 Аренда аккаунта Steam\n\n👤 Логин: {account_name}\n🔑 Пароль:  {password}\n⏱ Срок аренды: {duration_hours} ч.\n⌛ Дата окончания: {end_time}\n\n❗  Важно:\n• По истечении срока доступ будет заблокирован\n• Пароль будет изменен\n• Не меняйте пароль от аккаунта\n• Не включайте двухфакторную аутентификацию\n\n🔔 Чтобы получить Guard code — отправьте команду !код в этот чат.",
+    "rental_end": "⏰ Аренда аккаунта завершена\n\nСрок аренды аккаунта Steam истек. Доступ прекращён.\nБлагодарим за использование нашего сервиса!",
+    "rental_force_end": "⚠️ Аренда досрочно завершена\n\nАренда аккаунта Steam была принудительно завершена администратором.\nДоступ прекращен, пароль изменен.",
+    "admin_rental_start": "✅ Аккаунт выдан\n\n🔹 Заказ: <code>#{order_id}</code>\n🔹 Покупатель: <b>{username}</b>\n🔹 Аккаунт: <code>{account_name}</code>\n🔹 Пароль: <code>{password}</code>\n🔹 Тип: <code>{account_type}</code>\n🔹 Срок: <code>{duration_hours} ч.</code>\n🔹 Окончание: {end_time}",
+    "admin_rental_end": "⏰ Аренда завершена\n\n👤 Пользователь: {username}\n🎮 Аккаунт: {login}\n🔰 Тип: {account_type}\n✅ Аккаунт возвращен в пул доступных\n🔐 Новый пароль: {new_password}",
+    "guard_code": "🔐 Guard-код: {code}",
+    "guard_already_used": "🔐 Guard-код уже выдавался для вашего заказа.",
+    "guard_not_available": "ℹ️ Guard-код недоступен. Активная аренда не найдена."
+  }
+}
